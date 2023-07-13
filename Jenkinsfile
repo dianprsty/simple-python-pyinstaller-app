@@ -3,6 +3,7 @@ pipeline {
         docker {
             image 'python:2-alpine'
              image 'qnib/pytest'
+             image 'six8/pyinstaller-alpine'
         }
     }
     stages {
